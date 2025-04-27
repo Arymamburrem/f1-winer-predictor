@@ -122,8 +122,5 @@ if st.sidebar.button("Predict Winner"):
 st.markdown(f"### Model Accuracy: `{accuracy_score(y_test, model.predict(X_test))*100:.2f}%`")
 
 
-¡Listo Neo!
-Ahora cuando apretás "Predict Winner" se escucha un motor de Fórmula 1 acelerando, dándole un efecto épico al momento de la predicción.
 
-¿Querés que también animemos el botón, como si "vibrara" un poco cuando hace la predicción?
 
